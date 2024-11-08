@@ -1,0 +1,90 @@
+/* إعادة تعيين القيم الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* خلفية الموقع */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* تصميم الهيدر */
+header {
+    background: #4CAF50; /* لون خلفية */
+    color: #fff; /* لون النص */
+    padding: 20px 0; /* مسافة من الأعلى والأسفل */
+    text-align: center; /* توسيط النص */
+}
+
+/* تصميم عنوان الصفحة */
+h1 {
+    font-size: 2.5em;
+}
+
+/* تصميم الفقرات */
+p {
+    margin: 20px 0; /* مسافة من الأعلى والأسفل */
+    font-size: 1.2em; /* حجم الخط */
+}
+
+/* تصميم الروابط */
+a {
+    color: #4CAF50; /* لون الروابط */
+    text-decoration: none; /* إزالة خط التسطير */
+}
+
+a:hover {
+    text-decoration: underline; /* إضافة خط التسطير عند التمرير */
+}
+
+/* تصميم الأزرار */
+button {
+    background-color: #4CAF50; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 10px 20px; /* مسافة داخل الزر */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا مدورة */
+    cursor: pointer; /* تغيير المؤشر عند المرور فوق الزر */
+    transition: background-color 0.3s; /* تأثير عند تغيير اللون */
+}
+
+button:hover {
+    background-color: #45a049; /* لون الزر عند التمرير */
+}
+
+/* تصميم القسم */
+.container {
+    max-width: 800px; /* أقصى عرض للقسم */
+    margin: 0 auto; /* توسيط القسم */
+    padding: 20px; /* مسافة داخل القسم */
+    background: #fff; /* خلفية بيضاء للقسم */
+    border-radius: 10px; /* زوايا مدورة */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+/* تصميم الفوتر */
+footer {
+    text-align: center; /* توسيط النص */
+    padding: 20px 0; /* مسافة من الأعلى والأسفل */
+    background: #333; /* لون الخلفية */
+    color: white; /* لون النص */
+    position: relative; /* تحديد موضع الفوتر */
+    bottom: 0; /* تواجد الفوتر في الأسفل */
+    width: 100%; /* عرض كامل */
+}
+
+/* تصميم وسائط الهاتف المحمول */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* تقليل حجم العنوان على الهاتف */
+    }
+
+    p {
+        font-size: 1em; /* تقليل حجم النص على الهاتف */
+    }
+}
